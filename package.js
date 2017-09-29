@@ -1,14 +1,14 @@
 Package.describe({
-  name: 'raix:push',
+  name: 'cosmetic:push',
   version: '3.0.3-rc.7',
-  summary: 'Isomorphic Push notifications for APN and GCM',
-  git: 'https://github.com/raix/push.git'
+  summary: 'Isomorphic Push notifications for APN and Jpush',
+  git: 'https://github.com/cosmt/push.git'
 });
 
 // Server-side push deps
 Npm.depends({
   'apn' : '1.6.2', // '1.7.4', // working: 1.6.2
-  'node-gcm' : '0.9.6', // '0.12.0' // working: 0.9.6
+  'jpush-sdk' : '3.4.2', // jpush sdk
 });
 
 Cordova.depends({

@@ -1,3 +1,5 @@
+##  因为gcm不能使用,修改为jpush版本
+
 <img alt="Gi-SoftWare" src="https://raw.githubusercontent.com/raix/push/master/docs/logo.png" width="30%" height="30%">
 raix:push Push notifications
 =========
